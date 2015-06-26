@@ -1,0 +1,3 @@
+[submodule "jekyll-asset-path-plugin"]
+	path = jekyll-asset-path-plugin
+	url = https://github.com/samrayner/jekyll-asset-path-plugin.git
