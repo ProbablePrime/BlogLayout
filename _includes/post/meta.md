@@ -1,1 +1,5 @@
-<ul class="tag_list_in_post">{% for tag in page.tags %}<li class="inline tag_list_item"><a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a></li>{% endfor %}</ul>
+<div class="post-meta">
+        <span class="post-date">{{ page.date | date_to_string }}</span>
+        <span class="seperator">|</span>
+        <span class="post-tags">{% include post/tags.md %}</span>
+</div>
