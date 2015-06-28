@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -309,7 +309,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
@@ -578,7 +578,9 @@ a.pagination-item:hover {
   text-transform: uppercase;
   font-size: 0.6em;
 }
-
+.post-tags {
+  display:inline;
+}
 .post-tags .tag-list {
   display:inline;
 }

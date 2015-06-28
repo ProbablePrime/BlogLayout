@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% include post/meta.md %}
+<article class="post">
+  <header>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% include post/meta.md %}
+  </header>
   {{ content }}
-</div>
+  {% if page.comments %}
+    {% include post/comments/thread.md %}
+  {% endif %}
+</article>
