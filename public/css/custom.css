@@ -1,0 +1,26 @@
+.social {
+	list-style:none;
+	font-size:3.5em;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sidebar-content {
+	flex:1;
+}
+.title-image {
+	margin:0px;
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	position: relative;
+	top: 10px;
+}
